@@ -1,0 +1,28 @@
+{
+  "name": "socket-chat-example",
+  "version": "1.0.0",
+  "description": "\"This is a tutorial for learning how to programe for socket.io in a node.js server with express framework. This project creates a chat system with a client server architecture, where each client via web-socket communication listens for broadcast data; each client can send data to server, for broadcast.\"",
+  "main": "index.js",
+  "author": "Jack Weru Kioni",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jaweki/socket-chat-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jaweki/socket-chat-example/issues"
+  },
+  "homepage": "https://github.com/Jaweki/socket-chat-example#readme",
+  "dependencies": {
+    "@socket.io/cluster-adapter": "^0.2.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
