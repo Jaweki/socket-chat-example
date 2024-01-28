@@ -51,6 +51,9 @@ app.get('/', (req, res) => {
     res.sendFile(join(__dirname, 'index.html'));
 })
 
+
+//
+
 io.on('connection', async (socket) => {
     socket.on('disconnect', () => {
         console.log('user disconnected');
